@@ -8,21 +8,22 @@
   <body>
 
     <header>
-      <time>
+      <time datetime="2017-03-09T">3/9/2017</time>
       <hgroup>
         <h1>Greetings and welcome to my page!</h1>
-        <h2>This is a demonstration,</h2>
+        <h2>This is a demonstration:</h2>
         <h3>of my <mark>newly gained knowledge</mark> regarding:</h3>
         <h4>Semantic tags!</h4>
       </hgroup>
     </header>
 
     <nav>
-      <a href="/index.html/">Home</a>
+      <a href="#name">Home</a>
       <a href="/about.html/">About</a>
       <a href="/contact.html/">Contact</a>
     </nav>
 
+    <main>
     <article>
       <figure>
         <img src="image.jpg" alt="Here's a pic" width="" height="">
@@ -30,15 +31,19 @@
       </figure>
       <section>
       <hgroup>
+        <a href="a" id="name">
         <h1>
-          What should we call you?
+          Muhammad ibn Musa al-Khwarizmi
         </h1>
+        </a>
         <h2>
           <details>
-          <summary>You can call me Patrick!</summary>
+          <summary>An important Iranian mathematician who greatly contributed to computer science!</summary>
+            <h4>Sum</h4>
           </details>
         </h2>
       </section>
+
 
       <section>
         <h1>
@@ -55,11 +60,19 @@
     </article>
 
     <aside>
+      <div style="background:purple;border:1px solid #fff;padding: 5px;" contextmenu="Algorithm">
+        Right-click to see the name of what key computing concept that Muhammad ibn Musa al-Khwarizmi created!
+      </div>
+      <menu type="context" id="Algorithm">
+        <menu label="Secret">
+        <menuitem label="Algorithm" onclick="window">Algorithm</menuitem>
+      </menu>
     </aside>
 
     <section>
-    </section>
 
+    </section>
+  </main>
     <footer>
       <details>
         <summary>What the heck is going on?</summary>
